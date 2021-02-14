@@ -5,12 +5,11 @@
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
     ~/.zshrc: zshrc
-    ~/.antigen:
-    ~/.antigen.zsh:
-    ~/.p10k.zsh:
+    ~/.antigen: antigen
+    ~/.antigen.zsh: antigen.zsh
+    ~/.p10k.zsh: .p10k.zsh
 
 - create:
     - ~/workspace
 
-- shell:
-  - chsh -s $(which zsh)
+
