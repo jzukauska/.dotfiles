@@ -7,7 +7,7 @@
     ~/.zshrc: zshrc
     ~/.antigen: antigen
     ~/.antigen.zsh: antigen.zsh
-    ~/.p10k.zsh: .p10k.zsh
+    ~/.p10k.zsh: p10k.zsh
 
 - create:
     - ~/workspace
