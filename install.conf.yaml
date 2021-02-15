@@ -2,13 +2,13 @@
     link:
         create: true
         relink: true
-- apt-get: [zsh,git]
+
 - shell:
   - ["git submodule update --init --recursive", Installing submodules]
   - ["git submodule sync", Syncing submodule remotes]
   - ["git submodule foreach git pull origin master", Updating submodule contents]
   - ["date > ~/.dotfiles_update", Logging last update]
-  - ["./install -p dotbot-apt/apt.py -c packages.conf.yaml",]
+
 
 - clean: ['~']
 
