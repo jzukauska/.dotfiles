@@ -21,6 +21,7 @@
     ~/.antigen.zsh: antigen.zsh
     ~/.p10k.zsh: p10k.zsh
     ~/.fonts: fonts
+    ~/.oh-my-zsh: oh-my-zsh
 
 - create:
     - ~/workspace
