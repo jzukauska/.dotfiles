@@ -10,7 +10,6 @@
   - ["date > ~/.dotfiles_update", Logging last update]
   
 
-
 - clean: ['~']
 
 - link:
@@ -22,6 +21,7 @@
     ~/.p10k.zsh: p10k.zsh
     ~/.fonts: fonts
     ~/.oh-my-zsh: oh-my-zsh
+    ~/.nvm: nvm
 
 - create:
     - ~/workspace
