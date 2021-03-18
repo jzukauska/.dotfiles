@@ -8,6 +8,7 @@
   - ["git submodule sync", Syncing submodule remotes]
   - ["git submodule foreach git pull origin master", Updating submodule contents]
   - ["date > ~/.dotfiles_update", Logging last update]
+  - [". ./nvm.sh"]
   
 
 - clean: ['~']
