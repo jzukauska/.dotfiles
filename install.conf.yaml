@@ -4,6 +4,7 @@
         relink: true
 
 - shell:
+  - [sudo apt install zsh]
   - ["git submodule update --init --recursive", Installing submodules]
   - ["git submodule sync", Syncing submodule remotes]
   - ["git submodule foreach git pull origin master", Updating submodule contents]
