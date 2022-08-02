@@ -4,12 +4,10 @@
         relink: true
 
 - shell:
-  - [sudo apt install zsh]
   - ["git submodule update --init --recursive", Installing submodules]
   - ["git submodule sync", Syncing submodule remotes]
   - ["git submodule foreach git pull origin master", Updating submodule contents]
   - ["date > ~/.dotfiles_update", Logging last update]
-  - [". ./nvm.sh"]
   
 
 - clean: ['~']
@@ -23,13 +21,9 @@
     ~/.p10k.zsh: p10k.zsh
     ~/.fonts: fonts
     ~/.oh-my-zsh: oh-my-zsh
-    ~/.nvm: nvm
+  
 
 - create:
     - ~/workspace
-
-- shell:
-  - ["fc-cache -fv", Updating fonts]
-  - [sudo chsh -s $(which zsh), Making zsh the default shell]
 
 
